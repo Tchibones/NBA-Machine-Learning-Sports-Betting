@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from src.Utils import Expected_Value
 
 init()
-model = load_model('Models/NN_Models/Trained-Model-ML-1680133120.689445')
+model = load_model('Models/NN_Models/Trained-Model-ML')
 ou_model = load_model("Models/NN_Models/Trained-Model-OU-1680133008.6887271")
 
 
